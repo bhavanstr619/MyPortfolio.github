@@ -1,0 +1,163 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio </title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/79ab37b6ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#header"> Home </a></li>
+                <li><a href="#about"> About </a></li>
+                <li><a href="#project"> Projects </a></li>
+                <li><a href="#"> Portfolio </a></li>
+                <li><a href="#contact"> Contact </a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p style="color: red;">FULL STACK <span>- DEVELOPER</span> </p>
+            <h1> Hello , I'm <span>Bhavan Raj</span> <br> from Chennai </h1>
+        </div>
+    </div>
+</div>
+<!------ about ----->
+<div id="about">
+    <div class="container">
+        <div class="row1">
+            <div class="about-col-1">
+                <img src="images/user1.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title"> About me </h1><br>
+                <p>  Hello, I'm <b>Bhavan Raj</b>  from Chennai.<br>
+                    Recently completed my Full stack Development course in IT VEDANT Chennai<br>
+                    Then I Completed Modules SQL, Python, Web Design, and Django.<br>
+                    I completed the IBM examination for Python Development
+                    Based on Modules I worked few projects in Web Scraping using Python <br>MY highest qualification B.sc visual communication from st Thomas collage of Art and science in Chennai in pass out in year 2021<br> and I worked as a data entry operator in Kamarajar port in Ennore for 1 year <br> after That to enhanced my job opportunity i joined full-stack Development course <br> and currently looking a opportunity where i can enhance my skill and improve my performance. That's it
+                    <br>Thank You....
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Modules</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>FULL-STACK DEVELOPER</span> <br> Python with Django </li>
+                        <li><span>Web Design</span> <br>  HTML5,CSS3,JS </li>
+                        <li><span>Graphic Design</span> <br> Photoshop,Illustrator,Permiere Pro </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>PG-Python</span> <br> IT Vedant Chennai </li>
+                        <li><span>B.sc Visual Communication </span> <br>  ST Thomas College of Art and Science </li>
+                        <li><span>Schooling</span> <br>St.Anne's Matriculation Higher Secondary School </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="achievements">
+                    <ul>
+                        <li><span>Football </span> <br> Zonal level Football Runner up</li>
+                        <li><span>House Captain</span> <br> Over All Trophy Runner up in 2017</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Project -->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title"> My Projects </h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2> STUDENTS DATABASE USING MYSQL</h2>
+                <p style="font-family: 'Courier New', Courier, monospace;" > ER digaram with students table using Mysql workbench</p><br>
+                <a href="images/SQL PROJECT (2).docx"> Download </a>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Projects </h2>
+                <p style="font-family: 'Courier New', Courier, monospace;" > Web Scraping from e-commerce websites and flask connectivity with sql data bases </p><br>
+                <br><br>
+                <a href="#"> Download </a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>PORTFOLIO</h2>
+                <p style="font-family: 'Courier New', Courier, monospace;"> created Myself Portfolio using HTML,CSS,JS </p>
+                <br><br><br><br>
+                <a href="#"> Download </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------contact--------->
+<br><br><br>
+<div id="contact">
+     <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" >Contact Me</h1>
+                
+                <p><i class="fa-solid fa-envelope"></i>bhavan960@gmail.com</p>
+                
+                <p><i class="fa-solid fa-phone"></i>+91 8939029947 </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/kdbhavan11/?viewas=100000686899395&show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://wa.me/8939029947"><i class="fa-brands fa-whatsapp"></i></i></a>
+                    <a href="https://github.com/bhavanstr619"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavanstr619"><i class="fa-brands fa-linkedin"></i></a>
+                </div><br>
+                <button class="btn btn2"><a href="images/mycv.pdf">Download CV</a></button>
+            </div>
+            <div class="contact-rights"><br><br><br><br><br>
+                <h1> Your Infomation </h1>
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name Required" >
+                    <input type="email" name="Email" placeholder="Your Email Required" >
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="v1" type="submit" style="color: aliceblue;">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+
+            
+        </div>
+     </div>
+
+</div>
+
+
+<script src="index.js">  
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVT9Y7vvJvH8juzzgpToBZ1HCnrldZqDFZ3oQu9JuLJe-kH3zeb05pGd5mlPRD8CcxwA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
